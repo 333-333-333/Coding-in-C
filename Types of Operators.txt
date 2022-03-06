@@ -1,0 +1,49 @@
+#include<stdio.h>
+
+int main()
+{
+    //compiler will ignore this single line comment
+    /*this is a 
+    multiline 
+    comment */
+    int a = 60, b=7, c=8;
+    printf("The sum of a and b is %d\n",a+b);
+    printf("The difference of a and b is %d\n",a-b);
+    printf("The multiplication of a and b is %d\n",a*b);
+    printf("The division of a and b is %d\n",a/b);
+    printf("The modulo of a and b is %d\n",a%b);
+    printf("The increment result of a is %d\n",++a);
+    printf("The decrement result of a is %d\n",--b);
+    
+    //relational operators
+    int x=5, y=10;
+    printf("%d\n", x=y);
+    printf("%d\n", x!=y);
+    printf("%d\n", x>y);
+    printf("%d\n", x<y);
+    
+    //logical operators
+    int h=0, j=1;
+    printf("The logical operator returned %d\n", h&&j);
+    printf("The logical operator returned %d\n", h||j);
+    printf("The logical operator returned %d\n", !j);
+    printf("The logical operator returned %d\n", !h);
+    
+    //Bitwise operators 
+    int A=60, B=14;
+    printf("Bitwise operator returned %d\n", A&B);
+    printf("Bitwise operator returned %d\n", A|B);
+    printf("Bitwise operator returned %d\n", A^B);
+    printf("Bitwise operator returned %d\n", ~B);
+    printf("Bitwise operator returned %d\n", A&B);
+    printf("Bitwise operator returned %d\n", A&B);
+    
+    //Assignment operators
+    int m=9;
+    m +=9;
+    printf("m is %d\n",m);
+    
+    //Misc Operators &, *,?:
+    
+    return 0;
+}
