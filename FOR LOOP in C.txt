@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("\n\n************LOOP IN C************\n\n");
+    for(int j =0; j<71; j++)
+    {
+        printf("%d\n",j);
+    }
+    return 0;
+}
