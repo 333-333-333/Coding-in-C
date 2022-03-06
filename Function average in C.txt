@@ -1,0 +1,10 @@
+#include<stdio.h>
+float average(float a, float b)
+{
+    return a+b/2;
+}
+int main()
+{
+    printf("The average of 100 and 299 is %f",average(100,299));
+    return 0;
+}
