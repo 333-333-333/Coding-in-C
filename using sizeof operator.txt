@@ -1,0 +1,8 @@
+#include<stdio.h>
+
+int main()
+{
+    int a[]={2, 4, 6, 50, 10, 60, 30, 59, 22, 55, 6,78, 56};
+    
+    printf("%ld", sizeof(a) /sizeof(a[0]));
+}
