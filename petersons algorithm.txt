@@ -1,0 +1,30 @@
+//Peterson's algorithm 
+#define TRUE 1
+#define FALSE 0
+#include<stdio.h>
+int interested[]= {FALSE,FALSE};
+int turn;
+
+void Exit(int process)
+{
+    interested[process]== FALSE;
+}
+void Task(int process){
+    int other=1-process;
+    interested[process]= TRUE;
+    turn =  process;
+    while(interested[other]==TRUE && turn==other);
+    if(process==1)
+        printf("Process 1\n");
+    else
+        printf("Procss 2\n");
+    Exit(process);
+}
+
+void main()
+{
+    Task(1);
+    Task(2);
+    Task(1);
+    Task(2);
+}
