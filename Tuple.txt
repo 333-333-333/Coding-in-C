@@ -1,0 +1,4 @@
+tup = ("Apple", "Mango" , "Orange" , "Banana")  
+  
+tup[2] = "Papaya"  
+print(tup)  
